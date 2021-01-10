@@ -2,15 +2,14 @@
   display: inline;
   width: 100%;
 }
-.image-container:hover .overlay {
-  height: 100%;
-}
+
 .image-container {
   position: relative;
   display: inline-block;
   width: 250px;
   top: -30px;
 }
+
 .image-container .overlay {
   position: absolute;
   bottom: 0;
@@ -23,23 +22,13 @@
   display: inline-block;
 }
 
-.travelers .image-container .overlay {
-  background-color: #e86971;
-}
-.google .image-container .overlay {
-  background-color: #4285f4;
-}
-
-.optum .image-container .overlay {
-  background-color: #e38a21;
-}
-
-.uconn .image-container .overlay {
-  background-color: #141c2c;
+.image-container:hover .overlay {
+  height: 100%;
 }
 
 .image-container .text {
   white-space: nowrap;
+  text-align: center;
   color: white;
   font-size: 14px;
   position: absolute;
@@ -48,4 +37,36 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+/* Travelers  */
+.travelers .image-container {
+  top: -30px;
+}
+.travelers .image-container .overlay {
+  background-color: #e41e26;
+}
+
+/* Google */
+.google .image-container {
+  top: -23px;
+}
+.google .image-container .overlay {
+  background-color: #4285f4;
+}
+
+/* Optum */
+.optum .image-container {
+  top: -40px;
+}
+.optum .image-container .overlay {
+  background-color: #e38a21;
+}
+
+/* UConn */
+.uconn .image-container {
+  top: -25px;
+}
+.uconn .image-container .overlay {
+  background-color: #141c2c;
 }
