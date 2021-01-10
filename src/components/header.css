@@ -1,0 +1,11 @@
+.links {
+  text-align: center;
+}
+.links ul {
+  display: inline-table;
+  list-style-type: none;
+}
+.links li {
+  display: inline;
+  padding: 20px;
+}

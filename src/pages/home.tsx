@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
 import "./home.css";
-import About from "./about";
-import Header from "../components/header";
-import Title from "../components/title";
 
 export default class Home extends Component {
   render() {
