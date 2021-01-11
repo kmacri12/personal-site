@@ -7,6 +7,7 @@ import "./header.css";
 import TimelinePage from "../pages/timeline";
 import Contact from "../pages/contact";
 import Projects from "../pages/projects";
+import Education from "../pages/education";
 
 export default class Header extends Component {
   render() {
@@ -21,7 +22,10 @@ export default class Header extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/timeline">Timeline</Link>
+                  <Link to="/career">Career</Link>
+                </li>
+                <li>
+                  <Link to="/education">Education</Link>
                 </li>
                 <li>
                   <Link to="/resume">Resume</Link>
@@ -35,11 +39,12 @@ export default class Header extends Component {
               </ul>
             </nav>
             <Switch>
-              <Route path="/timeline" component={TimelinePage} />
+              <Route path="/career" component={TimelinePage} />
+              <Route path="/education" component={Education} />
               <Route path="/resume" component={Resume} />
-              <Route path="/" component={Home} />
               <Route path="/contact" component={Contact} />
               <Route path="/projects" component={Projects} />
+              <Route path="/" component={Home} />
             </Switch>
           </div>
         </Router>

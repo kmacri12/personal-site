@@ -1,16 +1,15 @@
-.timeline img {
+.tl img {
   display: inline;
   width: 100%;
 }
 
-.image-container {
+.tl .image-container {
   position: relative;
   display: inline-block;
   width: 250px;
-  top: -30px;
 }
 
-.image-container .overlay {
+.tl .image-container .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -22,11 +21,11 @@
   display: inline-block;
 }
 
-.image-container:hover .overlay {
+.tl .image-container:hover .overlay {
   height: 100%;
 }
 
-.image-container .text {
+.tl .image-container .text {
   white-space: nowrap;
   text-align: center;
   color: white;

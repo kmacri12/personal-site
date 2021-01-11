@@ -5,7 +5,7 @@ import "./timeline.css";
 export default class TimelinePage extends Component {
   render() {
     return (
-      <div className="timeline">
+      <div className="tl">
         <Timeline>
           <TimelineItem
             key="001"

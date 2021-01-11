@@ -1,3 +1,11 @@
+.resume {
+  text-align: center;
+}
+
+.resume .download-links {
+  padding: 10px;
+}
+
 .resume .center {
   margin: auto;
   /* width: 50%; */

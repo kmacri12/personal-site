@@ -1,0 +1,15 @@
+/* UConn */
+.uconn .image-container {
+  top: -25px;
+}
+.uconn .image-container .overlay {
+  background-color: #141c2c;
+}
+
+/* GaTech */
+.gatech .image-container {
+  top: -25px;
+}
+.gatech .image-container .overlay {
+  background-color: #000000;
+}
