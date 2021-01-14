@@ -6,7 +6,9 @@ export default class About extends Component {
     return (
       <div className="about">
         <div className="pic-and-links">
-          <img src="/images/puppies.png" alt="Photo of me"></img>
+          <div className="portrait">
+            <img src="/images/Kyle_Zion.jpg" alt="Photo of me"></img>
+          </div>
           <div className="contact">
             <div className="spacer"></div>
             <div className="image-container linkedin">

@@ -15,6 +15,10 @@ export default class Header extends Component {
 
     return (
       <div>
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        ></link>
         <Title />
         <Router>
           <div>
@@ -34,7 +38,7 @@ export default class Header extends Component {
                 </li>
                 <li className="download-link">
                   <Link to={pdf} target="_blank" download>
-                    Resume
+                    <i className="material-icons">get_app</i> Resume
                   </Link>
                 </li>
               </ul>

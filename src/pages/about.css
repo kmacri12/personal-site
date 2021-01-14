@@ -2,6 +2,13 @@
   /* text-align: center; */
   font-family: Helvetica, sans-serif;
 }
+
+.portrait img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 .contact .image-container {
   position: relative;
   display: inline-block;
@@ -66,4 +73,10 @@
 .interests {
   width: 50%;
   float: left;
+}
+.contact img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
