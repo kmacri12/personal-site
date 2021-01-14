@@ -1,7 +1,11 @@
+.about {
+  /* text-align: center; */
+  font-family: Helvetica, sans-serif;
+}
 .contact .image-container {
   position: relative;
   display: inline-block;
-  width: 33%;
+  width: 20%;
 }
 
 .contact {
@@ -36,6 +40,9 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+.contact .linkedin {
+  margin-left: 20%;
+}
 
 .contact .linkedin .overlay {
   background-color: #006699;
@@ -47,4 +54,16 @@
 
 .contact .github .overlay {
   background-color: #000000;
+}
+
+.pic-and-links,
+.bio {
+  width: 50%;
+  float: left;
+}
+
+.skills,
+.interests {
+  width: 50%;
+  float: left;
 }

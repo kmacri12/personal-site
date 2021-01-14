@@ -1,14 +1,14 @@
 /* UConn */
-.uconn .image-container {
-  top: -25px;
+.uconn-edu .title {
+  margin-top: 30px;
 }
-.uconn .image-container .overlay {
+.uconn-edu .image-container .overlay {
   background-color: #141c2c;
 }
 
 /* GaTech */
-.gatech .image-container {
-  top: -25px;
+.gatech .title {
+  margin-top: 40px;
 }
 .gatech .image-container .overlay {
   background-color: #000000;

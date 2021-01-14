@@ -15,7 +15,7 @@ export default class Education extends Component {
             className="gatech"
           >
             <div className="image-container">
-              <img src="/GeorgiaTech.png" alt="Georgia Tech Logo"></img>
+              <img src="/images/GeorgiaTech.png" alt="Georgia Tech Logo"></img>
               <div className="overlay">
                 <div className="text">
                   Georgia Institute of Technology
@@ -33,10 +33,10 @@ export default class Education extends Component {
             dateText="08/2012 – 05/2016"
             dateInnerStyle={{ background: "#141c2c" }}
             style={{ color: "#141c2c" }}
-            className="uconn"
+            className="uconn-edu"
           >
             <div className="image-container">
-              <img src="/UConnLogo.png" alt="UConn Logo"></img>{" "}
+              <img src="/images/UConnLogo.png" alt="UConn Logo"></img>
               <div className="overlay">
                 <div className="text">
                   University of Connecticut

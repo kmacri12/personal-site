@@ -9,3 +9,19 @@
   display: inline;
   padding: 20px;
 }
+.links a {
+  text-decoration: none;
+}
+.links a:visited {
+  color: #67727a;
+}
+.links a:link {
+  color: #67727a;
+}
+.download-link li {
+  border: 2px solid #6991ac;
+}
+
+body {
+  /* background-color: #c3d7df; */
+}

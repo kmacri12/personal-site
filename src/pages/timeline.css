@@ -39,32 +39,36 @@
 }
 
 /* Travelers  */
-.travelers .image-container {
-  top: -30px;
+
+.travelers .title {
+  margin-top: 30px;
 }
 .travelers .image-container .overlay {
   background-color: #e41e26;
 }
 
 /* Google */
-.google .image-container {
-  top: -23px;
+.google .title {
+  margin-top: 23px;
 }
 .google .image-container .overlay {
   background-color: #4285f4;
 }
 
 /* Optum */
-.optum .image-container {
-  top: -40px;
+.optum .title {
+  margin-top: 40px;
 }
 .optum .image-container .overlay {
   background-color: #e38a21;
 }
 
 /* UConn */
+.uconn .title {
+  margin-top: 25px;
+}
 .uconn .image-container {
-  top: -25px;
+  padding-bottom: 10px;
 }
 .uconn .image-container .overlay {
   background-color: #141c2c;

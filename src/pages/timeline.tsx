@@ -16,7 +16,7 @@ export default class TimelinePage extends Component {
           >
             <div className="image-container">
               <img
-                src="/TravelersLogo.png"
+                src="/images/TravelersLogo.png"
                 alt="Travelers Insurance Logo"
               ></img>
               <div className="overlay">
@@ -28,14 +28,11 @@ export default class TimelinePage extends Component {
               </div>
             </div>
             <h3>Software Engineer I</h3>
-            <h4>10/2020 - Present</h4>
-            <p>TODO fill this in.</p>
+            <h5>10/2020 - Present</h5>
             <h3>Associate Software Engineer</h3>
-            <h4>12/2018 - 10/2020</h4>
-            <p>TODO fill this in.</p>
+            <h5>12/2018 - 10/2020</h5>
             <h3>Software Programmer</h3>
-            <h4>06/2017 - 12/2018</h4>
-            <p>TODO fill this in.</p>
+            <h5>06/2017 - 12/2018</h5>
           </TimelineItem>
           <TimelineItem
             key="002"
@@ -45,7 +42,7 @@ export default class TimelinePage extends Component {
             className="google"
           >
             <div className="image-container">
-              <img src="/GoogleLogo.png" alt="Google Logo"></img>
+              <img src="/images/GoogleLogo.png" alt="Google Logo"></img>
               <div className="overlay">
                 <div className="text">
                   Google LLC
@@ -55,11 +52,9 @@ export default class TimelinePage extends Component {
               </div>
             </div>
             <h3>Technical Project Manager</h3>
-            <h4>03/2017 - 06/2017</h4>
-            <p>TODO fill this in.</p>
+            <h5>03/2017 - 06/2017</h5>
             <h3>Corporate Engineering Support Technician</h3>
-            <h4>07/2016 - 03/2017</h4>
-            <p>TODO fill this in.</p>
+            <h5>07/2016 - 03/2017</h5>
           </TimelineItem>
           <TimelineItem
             key="003"
@@ -69,7 +64,7 @@ export default class TimelinePage extends Component {
             className="optum"
           >
             <div className="image-container">
-              <img src="/OptumUHGLogo.png" alt="Optum/UHG Logo"></img>
+              <img src="/images/OptumUHGLogo.png" alt="Optum/UHG Logo"></img>
               <div className="overlay">
                 <div className="text">
                   UnitedHealth Group Inc. / Optum
@@ -79,8 +74,7 @@ export default class TimelinePage extends Component {
               </div>
             </div>
             <h3>IT Security Intern</h3>
-            <h4>06/2015 - 08/2015</h4>
-            <p>TODO fill this in.</p>
+            <h5>06/2015 - 08/2015</h5>
           </TimelineItem>
           <TimelineItem
             key="004"
@@ -91,7 +85,7 @@ export default class TimelinePage extends Component {
           >
             <div className="image-container">
               <img
-                src="/UConnSOBLogo.png"
+                src="/images/UConnSOBLogo.png"
                 alt="UConn School of Business Logo"
               ></img>{" "}
               <div className="overlay">
@@ -103,11 +97,9 @@ export default class TimelinePage extends Component {
               </div>
             </div>
             <h3>Senior Technician</h3>
-            <h4>01/2015 - 06/2016</h4>
-            <p>TODO fill this in.</p>
+            <h5>01/2015 - 06/2016</h5>
             <h3>IT Technician</h3>
-            <h4>08/2014 - 01/2015</h4>
-            <p>TODO fill this in.</p>
+            <h5>08/2014 - 01/2015</h5>
           </TimelineItem>
         </Timeline>
       </div>

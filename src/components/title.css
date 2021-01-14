@@ -4,3 +4,8 @@ img {
   margin-right: auto;
   width: 50%;
 }
+.title {
+  height: 100%;
+  width: 100%;
+  /* background-image: url("/images/tech_bkg.png"); */
+}
