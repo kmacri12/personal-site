@@ -7,7 +7,10 @@ export default class About extends Component {
       <div className="about">
         <div className="pic-and-links">
           <div className="portrait">
-            <img src="/images/Kyle_Zion.jpg" alt="Photo of me"></img>
+            <img
+              src="/images/Kyle_Zion.jpg"
+              alt="Me at Zion National Park"
+            ></img>
           </div>
           <div className="contact">
             <div className="spacer"></div>
@@ -64,11 +67,19 @@ export default class About extends Component {
             worked on some great projects here, including one utilizing AI and
             satellite imagery to provide information about the roof shape of a
             house. It was even recognized by{" "}
-            <a href="https://www.gartner.com/en/about/awards/eye-on-innovation">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.gartner.com/en/about/awards/eye-on-innovation"
+            >
               Gartner
             </a>{" "}
             as a finalist for the{" "}
-            <a href="https://careers.travelers.com/2020/12/07/technology-data-analytics-teams-recognized-for-focus-on-innovation/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://careers.travelers.com/2020/12/07/technology-data-analytics-teams-recognized-for-focus-on-innovation/"
+            >
               2020 Eye on Innovation Award
             </a>
             !{" "}
@@ -84,7 +95,11 @@ export default class About extends Component {
             Outside of work, I am pursuing my Master's of Science in Computer
             Science degree from Georgia Tech, specializing in Machine Learning.
             This semester (Spring 2021) I am enrolled in the flagship{" "}
-            <a href="https://omscs.gatech.edu/cs-7641-machine-learning">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://omscs.gatech.edu/cs-7641-machine-learning"
+            >
               Machine Learning
             </a>{" "}
             course.

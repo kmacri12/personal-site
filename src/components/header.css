@@ -6,13 +6,13 @@
   list-style-type: none;
 }
 .links li {
-  display: inline;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  display: inline-block;
 }
 .links a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-decoration: none;
 }
 .links a:visited {
@@ -21,12 +21,15 @@
 .links a:link {
   color: #67727a;
 }
-.links a:hover {
+.links li:hover {
+  transition: background-color 0.5s linear;
   background-color: #c3d7df;
 }
 .download-link {
-  border: 2px solid #6991ac;
-  margin-top: 5%;
+  border: 1px solid #6991ac;
+  border-radius: 5px;
+  padding-top: 1px;
+  padding-bottom: 4px;
 }
 
 body {
@@ -34,5 +37,10 @@ body {
 }
 .material-icons {
   font-size: 18px !important;
-  margin-top: 1%;
+  position: relative;
+  top: 4px;
+}
+
+.link {
+  display: block;
 }

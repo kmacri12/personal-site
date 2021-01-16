@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./title.css";
-import bkg from "/tech_bkg.png";
 
 export default class Title extends Component {
   render() {

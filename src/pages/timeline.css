@@ -3,6 +3,9 @@
   width: 100%;
 }
 
+.timeline {
+  margin-top: 25px;
+}
 .tl .image-container {
   position: relative;
   display: inline-block;

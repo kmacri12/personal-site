@@ -12,7 +12,7 @@
 .contact .image-container {
   position: relative;
   display: inline-block;
-  width: 20%;
+  width: 30%;
 }
 
 .contact {
@@ -48,7 +48,7 @@
   -ms-transform: translate(-50%, -50%);
 }
 .contact .linkedin {
-  margin-left: 20%;
+  margin-left: 5%;
 }
 
 .contact .linkedin .overlay {
@@ -69,6 +69,13 @@
   float: left;
 }
 
+.pic-and-links {
+  margin-top: 25px;
+}
+
+.bio {
+  width: 45%;
+}
 .skills,
 .interests {
   width: 50%;

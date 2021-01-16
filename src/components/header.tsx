@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Resume from "../pages/resume";
 import Title from "./title";
 import "./header.css";
 import TimelinePage from "../pages/timeline";
-import Contact from "../pages/contact";
 import Projects from "../pages/projects";
 import Education from "../pages/education";
 import About from "../pages/about";
@@ -25,18 +23,26 @@ export default class Header extends Component {
             <nav>
               <ul className="links">
                 <li>
-                  <Link to="/">About</Link>
+                  <Link className="link" to="/">
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/career">Career</Link>
+                  <Link className="link" to="/career">
+                    Career
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/education">Education</Link>
+                  <Link className="link" to="/education">
+                    Education
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/projects">Projects</Link>
+                  <Link className="link" to="/projects">
+                    Projects
+                  </Link>
                 </li>
-                <li className="download-link">
+                <li className="download-link link">
                   <Link to={pdf} target="_blank" download>
                     <i className="material-icons">get_app</i> Resume
                   </Link>
@@ -46,7 +52,6 @@ export default class Header extends Component {
             <Switch>
               <Route path="/career" component={TimelinePage} />
               <Route path="/education" component={Education} />
-              <Route path="/resume" component={Resume} />
               <Route path="/projects" component={Projects} />
               <Route path="/" component={About} />
             </Switch>
