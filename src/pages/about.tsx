@@ -82,14 +82,14 @@ export default class About extends Component {
             >
               2020 Eye on Innovation Award
             </a>
-            !{" "}
-            <p>
-              Prior to Travelers, I worked at Google mainly as a Corporate
-              Engineering Support Technician. Working in a super fast-paced
-              environment kept me learning every day. I also spent a few months
-              working as a Technical Project Manager, helping to decide which
-              computer hardware other Googlers use every day!
-            </p>
+            !
+          </p>
+          <p>
+            Prior to Travelers, I worked at Google mainly as a Corporate
+            Engineering Support Technician. Working in a super fast-paced
+            environment kept me learning every day. I also spent a few months
+            working as a Technical Project Manager, helping to decide which
+            computer hardware other Googlers use every day!
           </p>
           <p>
             Outside of work, I am pursuing my Master's of Science in Computer
