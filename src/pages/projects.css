@@ -1,0 +1,21 @@
+#accordion {
+  /* width: 80%; */
+  /* margin-left: 10%; */
+}
+
+.card-body img {
+  max-width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+.ai-description {
+  margin-left: 20px;
+}
+.projects-container {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.projects-container h2 {
+  text-align: center;
+}
