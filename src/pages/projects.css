@@ -19,3 +19,8 @@
 .projects-container h2 {
   text-align: center;
 }
+
+.card-header:hover {
+  background-color: rgb(218, 218, 218);
+  transition: background-color 0.2s linear;
+}

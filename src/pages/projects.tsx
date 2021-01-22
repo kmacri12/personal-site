@@ -9,8 +9,8 @@ export default class Projects extends Component {
       <div className="projects-container">
         <h2>Projects</h2>
         <p className="">
-          Due to the private nature of these school and work projects, I am only
-          able to share a small bit of information about each.
+          *Due to the private nature of these school and work projects, I am
+          only able to share a small bit of information about each.
         </p>
         <Accordion defaultActiveKey="5" id="accordion">
           <Card className="roof">
