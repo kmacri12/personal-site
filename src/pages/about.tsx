@@ -84,7 +84,21 @@ export default class About extends Component {
             >
               2020 Eye on Innovation Award
             </a>
-            !
+            ! I also had the chance to{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:6631655005537525760/"
+            >
+              {" "}
+              represent Travelers
+            </a>{" "}
+            at the 2019 Georgia Tech{" "}
+            <a target="_blank" rel="noreferrer" href="https://2019.hack.gt/">
+              HackGT
+            </a>{" "}
+            event. I served as a mentor to students participating in the
+            hackathon, offering advice and assistance with code when needed.
           </p>
           <p>
             Prior to Travelers, I worked at Google mainly as a Corporate
