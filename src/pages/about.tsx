@@ -63,7 +63,10 @@ export default class About extends Component {
         </div>
         <div className="bio">
           {!isMobile && <h2>About Me</h2>}
-          <p>Hey! I'm Kyle. I like building software and solving problems.</p>
+          <p>
+            Hey! I'm Kyle. I like building interesting software and solving
+            challenging problems.
+          </p>
           <p>
             Currently, I'm employed as a Software Engineer at Travelers
             Insurance, working mainly with JavaScript, C# and Python. I've
@@ -149,7 +152,6 @@ export default class About extends Component {
                   <li>Angular</li>
                 </ul>
                 <li>C#</li>
-                <li>REST APIs</li>
                 <li>Git</li>
                 <li>SQL</li>
                 <li>Hadoop</li>
