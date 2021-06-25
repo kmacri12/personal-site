@@ -30,7 +30,7 @@ export default class Projects extends Component {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://careers.travelers.com/2020/12/07/technology-data-analytics-teams-recognized-for-focus-on-innovation/"
+                    href="https://www.gartner.com/en/about/awards/eye-on-innovation"
                   >
                     Gartner
                   </a>{" "}
