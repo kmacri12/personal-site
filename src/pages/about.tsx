@@ -117,15 +117,6 @@ export default class About extends Component {
           <p>
             Outside of work, I am pursuing my Master's of Science in Computer
             Science degree from Georgia Tech, specializing in Machine Learning.
-            This semester (Spring 2021) I am enrolled in the flagship{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://omscs.gatech.edu/cs-7641-machine-learning"
-            >
-              Machine Learning
-            </a>{" "}
-            course.
           </p>
           <div className="interests-skills">
             <div className="interests">
