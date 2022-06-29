@@ -27,8 +27,10 @@ export default class TimelinePage extends Component {
                 </div>
               </div>
             </div>
+            <h3>Software Engineer II - Artificial Intelligence</h3>
+            <h5>01/2022 - Present</h5>
             <h3>Software Engineer I</h3>
-            <h5>10/2020 - Present</h5>
+            <h5>10/2020 - 01/2022</h5>
             <h3>Associate Software Engineer</h3>
             <h5>12/2018 - 10/2020</h5>
             <h3>Software Programmer</h3>

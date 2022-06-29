@@ -69,7 +69,7 @@ export default class About extends Component {
           </p>
           <p>
             Currently, I'm employed as a Software Engineer at Travelers
-            Insurance, working mainly with JavaScript, C# and Python. I've
+            Insurance, working mainly with Python, building AI pipelines. I've
             worked on some great projects here, including one utilizing AI and
             satellite imagery to provide information about the roof shape of a
             house. It was even recognized by{" "}
