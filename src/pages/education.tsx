@@ -9,7 +9,7 @@ export default class Education extends Component {
         <Timeline>
           <TimelineItem
             key="001"
-            dateText="01/2020 – Present"
+            dateText="01/2020 – 05/2023"
             dateInnerStyle={{ background: "#000000" }}
             style={{ color: "#000000" }}
             className="gatech"
